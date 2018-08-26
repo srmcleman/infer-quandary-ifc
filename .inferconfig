@@ -1,0 +1,5 @@
+{
+    "quandary-sources": [ { "procedure": "gets", "kind": "PrivateData", "index": "0" } ],
+    "quandary-sinks":   [ { "procedure": "puts", "kind": "PrivateData" } ],
+    "quandary-sanitizers": [ { "procedure": "check", "kind": "PrivateData" } ]
+}
