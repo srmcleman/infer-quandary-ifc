@@ -16,6 +16,8 @@ void f() {
     puts(buf);
     free(buf);
 }
+// alternatively, instead of incrementing/decrementing can just call
+// buf = check(&buf[99])
 
 // just for testing -- program will output same string as input
 int main(int argc, char **argv) {
