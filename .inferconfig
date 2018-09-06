@@ -1,15 +1,19 @@
 {
     "quandary-sources": [ 
 		{ "procedure": "gets", "kind": "PrivateData", "index": "0" },
+		{ "procedure": "gets_call_sink_within_source", "kind": "PrivateData", "index": "0" },
 		{ "procedure": "gets_different_kind", "kind": "98j32fj2938fj", "index": "0" },
 		{ "procedure": "gets_invalid_index", "kind": "whatever", "index": "1" },
-		{ "procedure": "gets_second_index", "kind": "88888", "index": "1" }
+		{ "procedure": "gets_second_index_source", "kind": "88888", "index": "1" },
+		{ "procedure": "gets_second_index_sink", "kind": "fddfdf88888", "index": "0" }
 	],
     "quandary-sinks":   [ 
 		{ "procedure": "puts", "kind": "PrivateData" },
+		{ "procedure": "puts_call_sink_within_source", "kind": "PrivateData" },
 		{ "procedure": "puts_different_kind", "kind": "JOIJ838j3f838" },
 		{ "procedure": "puts_invalid_index", "kind": "whateverX" },
-		{ "procedure": "puts_second_index", "kind": "77777" }
+		{ "procedure": "puts_second_index_source", "kind": "77777" },
+		{ "procedure": "puts_second_index_sink", "kind": "wywyw77777", "index": "1" }
 	],
     "quandary-sanitizers": [
 		{ "procedure": "check", "kind": "PrivateData" } 
