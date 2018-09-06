@@ -1,5 +1,13 @@
 {
-    "quandary-sources": [ { "procedure": "gets", "kind": "PrivateData", "index": "0" } ],
-    "quandary-sinks":   [ { "procedure": "puts", "kind": "PrivateData" } ],
-    "quandary-sanitizers": [ { "procedure": "check", "kind": "PrivateData" } ]
+    "quandary-sources": [ 
+		{ "procedure": "gets", "kind": "PrivateData", "index": "0" },
+		{ "procedure": "gets_different_kind", "kind": "98j32fj2938fj", "index": "0" }
+	],
+    "quandary-sinks":   [ 
+		{ "procedure": "puts", "kind": "PrivateData" },
+		{ "procedure": "puts_different_kind", "kind": "JOIJ838j3f838" }
+	],
+    "quandary-sanitizers": [
+		{ "procedure": "check", "kind": "PrivateData" } 
+	]
 }
